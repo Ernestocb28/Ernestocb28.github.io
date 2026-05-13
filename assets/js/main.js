@@ -112,7 +112,7 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
 let swiperProjects = new Swiper('#projects-swiper', {
     cssMode: false,
     loop: true,
-    allowTouchMove: false,
+    allowTouchMove: true,
 
     navigation: {
         nextEl: '#projects-swiper .swiper-button-next',
