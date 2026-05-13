@@ -108,6 +108,22 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
     },
 })
 
+/*==================== PROJECTS SWIPER  ====================*/
+let swiperProjects = new Swiper('#projects-swiper', {
+    cssMode: false,
+    loop: true,
+    allowTouchMove: false,
+
+    navigation: {
+        nextEl: '#projects-swiper .swiper-button-next',
+        prevEl: '#projects-swiper .swiper-button-prev',
+    },
+    pagination: {
+        el: '#projects-swiper .swiper-pagination',
+        clickable: true,
+    },
+})
+
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper('.testimonial__container', {
     loop: true,

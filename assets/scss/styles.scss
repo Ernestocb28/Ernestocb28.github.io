@@ -1235,3 +1235,57 @@ img{
         }
     }
 }
+
+
+/* ==================== PROJECTS SWIPER ====================*/
+#projects-swiper {
+    position: relative;
+    overflow: hidden;
+    padding: 0 3rem 3rem;
+}
+
+#projects-swiper .swiper-button-next,
+#projects-swiper .swiper-button-prev {
+    position: absolute;
+    top: 55% !important;
+    bottom: auto !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#projects-swiper .swiper-button-prev {
+    left: 1rem !important;
+}
+
+#projects-swiper .swiper-button-next {
+    right: 1rem !important;
+}
+
+#projects-swiper .swiper-pagination {
+    display: block !important;
+    bottom: 0 !important;
+    visibility: visible !important;
+}
+
+#projects-swiper .swiper-slide {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+
+@media screen and (max-width: 600px) {
+    #projects-swiper .swiper-button-prev {
+        left: 0 !important;
+    }
+
+    #projects-swiper .swiper-button-next {
+        right: 0 !important;
+    }
+
+    #projects-swiper .swiper-button-next,
+    #projects-swiper .swiper-button-prev {
+        top: 50% !important;
+    }
+}
