@@ -543,9 +543,6 @@ img {
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
-  height: 200px;
-  object-fit: cover;
-  object-position: center 15%;
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
